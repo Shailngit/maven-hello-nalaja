@@ -5,7 +5,6 @@
   <groupId>com.learnandcode.in</groupId>
   <artifactId>hello</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-   <packaging>war</packaging>
   <build>
     <plugins>
       <!-- Other plugins -->
@@ -31,17 +30,6 @@
           </execution>
         </executions>
       </plugin>
-      <plugin>
-        <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-war-plugin -->
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-war-plugin</artifactId>
-        <version>3.3.2</version>
-        <configuration>
-          <warName>hello</warName>
-          <failOnMissingWebXml>false</failOnMissingWebXml>
-        </configuration>
-      </plugin>
-
       <!-- Other plugins -->
     </plugins>
   </build>
